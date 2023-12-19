@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM docker:latest
 MAINTAINER Thantez <github.com/thantez>
 
 RUN apk --no-cache -U add \

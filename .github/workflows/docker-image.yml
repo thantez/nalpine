@@ -3,6 +3,9 @@ name: Publish Docker image
 on:
   schedule:
     - cron:  '0 0 1 * *'
+  push:
+    branches:
+      - latest
 
 jobs:
   push_to_registry:

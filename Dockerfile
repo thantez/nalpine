@@ -1,5 +1,5 @@
-FROM alpine:3.11
-MAINTAINER Valerie Conklin <github.com/digivava>
+FROM alpine:latest
+MAINTAINER Thantez <github.com/thantez>
 
 RUN apk --no-cache -U add \
   bash \
